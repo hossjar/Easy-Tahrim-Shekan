@@ -1,0 +1,55 @@
+# Live deployments and credentials (including nested copies)
+private/
+runtime/
+clients/
+config/
+secrets/
+backups/
+test-client.json
+public.json
+container-baseline.json
+relay-baseline.json
+compose.yaml
+compose.yml
+docker-compose.yml
+.env
+.env.*
+!.env.example
+*.local.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.ovpn
+id_rsa*
+id_ed25519*
+
+# One-off reports and scripts tied to the original private server
+/verification.txt
+/inspect-vps.py
+/fetch-test-client.py
+/verify-client.py
+
+# Downloaded tools, archives and logs
+tools/
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.dump
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
